@@ -1,0 +1,6 @@
+Mahendra,8.5
+Tripathi,7.2
+Martin,6.8
+Mahishmati,9.5
+Pandya,9.1
+Chopra,8.9

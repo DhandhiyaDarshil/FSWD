@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkPositiveNumber(num) {
+        if (num < 0) {
+            throw new Error('Number must be positive');
+        }
+        }
+
+        try {
+        checkPositiveNumber(-5);
+        } catch (error) {
+        console.log(error.message);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function findMinMaxSalary(salaries) {
+        if (salaries.length === 0) return null;
+
+        const minSalary = Math.min(...salaries);
+        const maxSalary = Math.max(...salaries);
+
+        return { min: minSalary, max: maxSalary };
+        }
+
+        const salaries = [50000, 60000, 45000, 70000, 55000];
+        const result = findMinMaxSalary(salaries);
+        console.log(result.min);
+        console.log(result.max);
+    </script>
+</body>
+</html>
